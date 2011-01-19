@@ -5,6 +5,7 @@ Template Name: Home Page
 */
 
 get_header(); ?>
+<?php aio_slideshow(); ?>
 <!--div>
 <?php $i = 0; ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); if( $post->ID == $do_not_duplicate ) continue; update_post_caches($posts); $i++; ?>

@@ -65,4 +65,3 @@
 </div-->
 <!-- Begin Navigation -->
 <?php f8_theme_nav(); ?>
-<?php aio_slideshow(); ?>
