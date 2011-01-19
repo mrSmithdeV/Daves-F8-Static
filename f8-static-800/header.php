@@ -24,7 +24,7 @@
 
 <!-- Begin rss -->
 <!--div id="inside-subscribe">
-	<a href="<?php bloginfo('rss2_url'); ?>" class="feed">posts</a> <a href="<?php bloginfo('comments_rss2_url'); ?>" class="feed">comments</a>
+<a href="http://twitter.com/#!/nickywebb" target="_blank"><img style="vertical-align: middle" src="http://www.nickywebb.com/wp-content/uploads/2011/01/twitter_newbird_boxed_blueonwhite.png" width="25" height="25" ></a><a href="http://twitter.com/#!/nickywebb" class="feed">Follow me on Twitter</a> <a href="<?php bloginfo('comments_rss2_url'); ?>" class="feed">Follow me on Facebook</a>
 </div-->
 <div class="clear"></div>
 

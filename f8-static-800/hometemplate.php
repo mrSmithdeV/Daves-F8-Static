@@ -5,7 +5,7 @@ Template Name: Home Page
 */
 
 get_header(); ?>
-
+<!--div>
 <?php $i = 0; ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); if( $post->ID == $do_not_duplicate ) continue; update_post_caches($posts); $i++; ?>
 <div class="span-8 post-<?php the_ID(); ?><?php if ($i == 3) { ?> last<?php  } ?>">
@@ -16,13 +16,13 @@ get_header(); ?>
 </div>
 <?php if ($i == 3) { ?><div class="archive-stack clear"></div><?php $i = 0; } ?>
 <?php endwhile; endif; ?>
+</div-->
+<!--div class="clear"></div-->
 
-<div class="clear"></div>
-
-<div class="navigation clearfix">
+<!--div class="navigation clearfix">
 	<div><?php next_posts_link('&laquo; Older Entries') ?></div>
 	<div><?php previous_posts_link('Newer Entries &raquo;') ?></div>
-</div>
+</div-->
 
 <?php get_template_part( 'bottom' ); ?>
 <?php get_footer(); ?>
